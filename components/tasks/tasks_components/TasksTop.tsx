@@ -1,7 +1,7 @@
 import {Box, HStack, Text} from 'native-base';
 import React from 'react';
 
-const Tasks_top = () => {
+const TasksTop = () => {
   return (
     <Box>
       <HStack justifyContent="space-around" pr={7} pl={7} pt={10}>
@@ -14,4 +14,4 @@ const Tasks_top = () => {
   );
 };
 
-export default Tasks_top;
+export default TasksTop;
